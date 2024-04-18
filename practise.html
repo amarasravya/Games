@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIC GAMES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(125deg, #12C2E9, #F64F59);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        header {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+            background-color: blueviolet;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header ul li {
+            width: 150px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        header ul li:hover {
+            background: linear-gradient(#cc66ff, #f4f4f4);
+            color: black;
+        }
+
+        header ul li:nth-child(1) {
+            border-top: 4px solid #cc33ff;
+        }
+
+        .play {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            height: calc(100vh - 60px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        main p {
+            width: 700px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+        }
+
+        main button {
+            width: 250px;
+            height: 60px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            margin-top: 30px;
+            font-size: 30px;
+            background: linear-gradient(#ffafbd, #ffc3a0);
+            cursor: pointer;
+        }
+
+        main button:hover {
+            transform: translateY(5px);
+            transition: 0.2s;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h2>Gaming punch</h2>
+    <ul>
+        <li><a href="practise.html">Home</a></li>
+        <li><a href="play.html" class="play">Play</a></li>
+        <li>Coins</li>
+        <li>Wallet</li>
+    </ul>
+</header>
+<main>
+    <p>Welcome to the Games</p>
+    <a href="play.html"><button>Play</button></a>
+</main>
+</body>
+</html>
